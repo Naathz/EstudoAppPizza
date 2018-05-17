@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.logonrm.apppizza.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtlogin"
+        />
+
+    <EditText
+        android:id="@+id/etLogin"
+        android:layout_below="@id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintlogin"
+        />
+
+    <TextView
+        android:id="@+id/tvSenha"
+        android:layout_below="@id/etLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtsenha"
+        />
+
+    <EditText
+        android:id="@+id/etSenha"
+        android:layout_below="@+id/tvSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintsenha"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSenha"
+        android:text="@string/botao_calcular"
+        android:onClick="logar"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AppPizza</string>
+    <string name="txtlogin">Login</string>
+    <string name="hintlogin">Informe aqui seu login</string>
+    <string name="txtsenha">Senha</string>
+    <string name="hintsenha">Informa aqui sua senha</string>
+    <string name="botao_calcular">Calcular</string>
+
+    <!--strings PedidoActivity-->
+    <string name="txtdadocliente">Dados Cliente</string>
+    <string name="hintdadocliente">Nome do cliente</string>
+    <string name="txtescolher">Escolha as pizzas</string>
+    <string name="txt_pizzaatum">Atum</string>
+    <string name="txt_pizzabacon">Bacon</string>
+    <string name="txt_pizzacalabresa">Calabresa</string>
+    <string name="txt_mussarela">Mussarela</string>
+    <string name="txt_tam_pizza">Tamanho Pizza</string>
+    <string name="txt_pequena">Pequena</string>
+    <string name="txt_media">Média</string>
+    <string name="txt_grande">Grande</string>
+    <string name="txt_pagamento">Forma de pagamento</string>
+    <!--strings pagamento-->
+    <string name="txt_calcular">Calcular</string>
+    <string name="txt_cartao">Cartão de Débito</string>
+    <string name="txt_vr">VR</string>
+    <string name="txt_dinheiro">Dinheiro</string>
+    
+</resources>
